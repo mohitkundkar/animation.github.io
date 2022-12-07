@@ -1,0 +1,12 @@
+.load{
+    border: 16px solid red;
+    border-radius: 50%;
+    border-top: 16px solid aqua;
+    width: 120px;
+    height: 120px;
+    animation: rotate 2s linear infinite;
+}
+@keyframes rotate{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
